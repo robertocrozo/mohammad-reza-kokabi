@@ -1,0 +1,10 @@
+number = int(input("Enter a number: "))
+num = 11
+if number == num:
+    print("you guessed the number!")
+elif number >  num:
+    print("your guess was a bigger number..")
+elif number < num :
+    print("your guess was a smaller number")
+else:
+    print("invalid")
