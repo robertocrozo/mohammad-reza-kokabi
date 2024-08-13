@@ -1,0 +1,10 @@
+num1 = int(input("give me num 1  :"))
+num2 = int(input("give me num 2  :"))
+num3 = int(input("give me num 3  :"))
+num4 = int(input("give me num 4  :"))
+num5 = int(input("give me num 5  :"))
+all =[num1, num2, num3,num4,num5]
+tartib = sorted(all)
+print(tartib)
+tartib.reverse()
+print(tartib)
